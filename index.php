@@ -81,7 +81,7 @@
           </figcaption>
         </figure>
 
-        
+        <!--Inicio  card que levam para outra pagina-->
         <div class="card-group">
           <div class="card px-3">
             <img src="./images/graos.png" class="card-img-top" alt="...">
@@ -100,7 +100,7 @@
             </div>
           </div>
         </div>
-
+        <!--fim  card que levam para outra pagina-->
       </div>
 
    
