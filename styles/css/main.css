@@ -1,0 +1,20 @@
+/*Reset document*/
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+#nav-item:hover{
+    color: rgba(117, 61, 9, 0.932);
+}
+
+/*slider*/
+.container{
+    padding: 0;
+    
+  }
+
+
+    
