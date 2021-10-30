@@ -1,0 +1,32 @@
+/*Reset document*/
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: url(../images/FUNDO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nav-item:hover{
+    color: rgba(117, 61, 9, 0.932);
+}
+
+/*slider*/
+.container{
+    padding: 0;
+    
+  }
+
+  #border_opacity{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    /*box-shadow: 0 0 1em rgb(233, 230, 216);*/
+    background-color: rgba(255, 255, 255, 0.596);
+  }
+
+  #cardopacity{
+    background-color: rgba(255, 255, 255, 0.596);
+  }
