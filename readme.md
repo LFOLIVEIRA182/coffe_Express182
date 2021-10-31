@@ -17,3 +17,5 @@ COffee Express 182
 ->Estilização do body
 #
 ->Criação de algumas id
+#
+->Adição do fontawesome
