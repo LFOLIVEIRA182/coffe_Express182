@@ -44,3 +44,7 @@ body{
 #redirectfooter:hover{
   color: rgb(124,231, 114);
  }
+
+ #bgcoffee{
+  background-color: rgba(12, 12, 12, 0.658);
+ }

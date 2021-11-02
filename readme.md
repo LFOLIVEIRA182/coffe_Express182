@@ -21,3 +21,5 @@ COffee Express 182
 ->Adição do fontawesome
 #
 -> iniciação do script Php
+# #
+adicção de uma api com as cotaçoes da saca do café
