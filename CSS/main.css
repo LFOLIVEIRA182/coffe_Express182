@@ -22,10 +22,6 @@ body{
 }
 
 /*slider*/
-.container{
-    padding: 0;
-    
-  }
 
 
  #SliderStilo{
@@ -48,3 +44,4 @@ body{
  #bgcoffee{
   background-color: rgba(12, 12, 12, 0.658);
  }
+
