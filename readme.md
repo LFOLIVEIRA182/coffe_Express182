@@ -23,3 +23,7 @@ COffee Express 182
 -> iniciação do script Php
 # #
 adicção de uma api com as cotaçoes da saca do café
+###
+Criação da pagina tipos de graos
+###
+Configuração do layout dos tipos de graos
