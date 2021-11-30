@@ -27,3 +27,7 @@ adicção de uma api com as cotaçoes da saca do café
 Criação da pagina tipos de graos
 ###
 Configuração do layout dos tipos de graos
+##
+integração de paginas 
+#
+troca do background
