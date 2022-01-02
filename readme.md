@@ -33,3 +33,7 @@ integração de paginas
 troca do background
 ###
 06/12/2021-> Realizado alguns ajustes da pagina index melhorando a resposibildade para dipslays mobile.
+#*#*#*#*#*#*#*#*##*#*#*#*#*#*#*#*#*#*#*#*#*#*
+->2022<-
+criaçaõ da pagina cafeAlemdaHistoria.
+retoques no posicionamento do elementos nas paginas.
