@@ -15,7 +15,6 @@
     <link href="fontawesome/css/all.css" rel="stylesheet"> 
   </head>
     <body>
-        <header >
              <!--Inicio navbar-->
                 <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
                     <div class="container">
@@ -44,69 +43,65 @@
                     </div>
                 </nav>
                 <!--Fim navbar-->
-        </header>
-        <main>
-          <!--INICIO FORMULARIO DE CONTATO-->
+         <!--INICIO FORMULARIO DE CONTATO-->
+         <div class="container mt-5 py-5">
+             <div class="row bg-light">
+                 <div class="col-md-6 col-md-offset-3">
+                     <div>
+                         <form class="form-horizontal" action="enviar.php" method="post">
+                             <fieldset>
+                                 <legend class="text-center fw-bold">Contato</legend>
+
+                                 <!-- Name input-->
+                                 <div class="form-group">
+                                     <label class="col-md-3 control-label fw-bold" for="name">Seu nome</label>
+                                     <div class="col-md-9">
+                                         <input id="nome" name="nome" type="text" placeholder="Your name" class="form-control">
+
+                                     </div>
+                                 </div>
+
+                                 <!-- Email input-->
+                                 <div class="form-group">
+                                     <label class="col-md-3 control-label fw-bold" for="email">Seu E-mail</label>
+                                     <div class="col-md-9">
+                                         <input id="email" name="email" type="email" placeholder="Your email" class="form-control">
+
+                                     </div>
+                                 </div>
+
+
+                                 <!-- Message body -->
+                                 <div class="form-group">
+                                     <label class="col-md-3 control-label fw-bold" for="message">Sua menssagem</label>
+                                     <div class="col-md-9">
+                                         <textarea class="form-control" id="mensagem" name="mensagem" placeholder="Please enter your message here..." rows="5 cols=" 5"></textarea>
+
+                                     </div>
+                                 </div>
+
+                                 <!-- Form actions -->
+                                 <div class="form-group p-4">
+                                     <div class="col-md-12 text-right">
+                                         <button type="submit" class="btn btn-dark btn-lg">Enviar</button>
+                                     </div>
+                                 </div>
+                             </fieldset>
+                         </form>
+                     </div>
+                 </div>
+                 <!--contatos-->
+                 <div class="col-md-6">
+                     <ul class="pt-5">
+                         <li><i class="fas fa-mobile fa-2x"></i> (11)96709-9419</li><br>
+                         <li><i class="fas fa-mail-bulk fa-2x"></i>lfrnndoliveira@gmail.com</li><br>
+                         <li><i class="fas fa-map-marked-alt fa-2x"></i> São Paulo - centro</li>
+                     </ul>
+                 </div>
+             </div>
+         </div>
+         <!--FIM FORMULARIO DE CONTATO -->
           
-          <div class="container">
-              <div class="row bg-light pt-5">
-                  <div class="col-md-6 col-md-offset-3">
-                      <div>
-                          <form class="form-horizontal" action="enviar.php" method="post">
-                              <fieldset>
-                                  <legend class="text-center fw-bold">Contato</legend>
-
-                                  <!-- Name input-->
-                                  <div class="form-group">
-                                      <label class="col-md-3 control-label fw-bold" for="name">Seu nome</label>
-                                      <div class="col-md-9">
-                                          <input id="nome" name="nome" type="text" placeholder="Your name" class="form-control">
-
-                                      </div>
-                                  </div>
-
-                                  <!-- Email input-->
-                                  <div class="form-group">
-                                      <label class="col-md-3 control-label fw-bold" for="email">Seu E-mail</label>
-                                      <div class="col-md-9">
-                                          <input id="email" name="email" type="email" placeholder="Your email" class="form-control">
-
-                                      </div>
-                                  </div>
-
-
-                                  <!-- Message body -->
-                                  <div class="form-group">
-                                      <label class="col-md-3 control-label fw-bold" for="message">Sua menssagem</label>
-                                      <div class="col-md-9">
-                                          <textarea class="form-control" id="mensagem" name="mensagem" placeholder="Please enter your message here..." rows="5 cols=" 5"></textarea>
-
-                                      </div>
-                                  </div>
-
-                                  <!-- Form actions -->
-                                  <div class="form-group p-4">
-                                      <div class="col-md-12 text-right">
-                                          <button type="submit" class="btn btn-dark btn-lg">Enviar</button>
-                                      </div>
-                                  </div>
-                              </fieldset>
-                          </form>
-                      </div>
-                  </div>
-                  <!--contatos-->
-                  <div class="col-md-6">
-                      <p class="pt-5">
-                          <li><i class="fas fa-contact-book fa-2x"></i> (11)96709-9419</li><br>
-                          
-                      </p>
-                  </div>
-              </div>
-          </div>
-          <!--FIM FORMULARIO DE CONTATO -->
-              
-        
-        </main>
 
 
         <!--RODAPE-->
