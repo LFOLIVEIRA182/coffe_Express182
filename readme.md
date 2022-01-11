@@ -37,3 +37,5 @@ troca do background
 ->2022<-
 criaçaõ da pagina cafeAlemdaHistoria.
 retoques no posicionamento do elementos nas paginas.
+################################################################
+-Ajuste na pagina contato-10/01/2022
