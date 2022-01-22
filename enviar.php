@@ -20,4 +20,4 @@
         //Enviar
         mail($destino, $assunto, $arquivo, $headers);
         
-        echo "<meta http-equiv= 'refresh' content='10;URL=../sucesso.php'>";
+        echo "<meta http-equiv= 'refresh' content='10;URL=./sucesso.php'>";
